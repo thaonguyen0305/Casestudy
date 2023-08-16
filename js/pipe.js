@@ -1,5 +1,5 @@
 
-class Pipe{
+/*class Pipe{
     constructor(x, y, width, height) {
         this.x = x;
         this.y = y;
@@ -25,4 +25,4 @@ class Pipe{
             pipeArray.shift();
         }
         }
-}
+}*/

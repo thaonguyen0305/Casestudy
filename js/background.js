@@ -11,7 +11,7 @@ class Background {
     //vẽ bg lên canvas
     drawBackground() {
         let image = new Image();
-        image.src ="../image/screen.jpg";
+        image.src ="../image/background.jpg";
         image.onload =() => {
             this.ctx.drawImage(image, this.x, this.y, this.width, this.height);
         }

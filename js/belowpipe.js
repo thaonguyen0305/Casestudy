@@ -11,7 +11,7 @@ class Belowpipe {
 
     drawBelowpipe() {
         let image = new Image();
-        image.src = "../image/belowpipe.jpg";
+        image.src = "../anh/belowpipe.jpg";
         image.onload = () => {
             this.ctx.drawImage(image, this.x, this.y, this.width, this.height);
         }

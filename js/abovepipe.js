@@ -11,7 +11,7 @@ constructor(x, y, width, height) {
 
     drawAbovepipe() {
         let image = new Image();
-        image.src ="../image/abovepipe.jpg";
+        image.src ="../anh/abovepipe.jpg";
         image.onload =() => {
             this.ctx.drawImage(image, this.x, this.y, this.width, this.height);
         }
@@ -23,12 +23,3 @@ constructor(x, y, width, height) {
 
 }
 }
-
-/*let abovepipes = [];
-        function createAbovepipe(){
-            for (let i = 0; i < 10; i++) {
-                abovepipe = new Abovepipe(600 +i*30, 0, 50, 100);
-            }
-            abovepipes.push(abovepipe);
-        }
-        createAbovepipe(); */
